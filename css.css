@@ -1,0 +1,154 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0 0 0.5rem 0;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 150px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.aside {
+  width: 30%;
+  padding: 2rem 1rem;
+  background-color: #3176e0;
+  color: #fff;
+}
+
+.main {
+  width: 70%;
+  padding: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .section {
+  border-color: #d3d1d1;
+}
+
+.section {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.text {
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+
+.photo {
+  max-height: 200px;
+  float: right;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.lang-text {
+  flex-grow: 1;
+  margin-right: 2rem;
+}
+
+.lang-name {
+}
+
+.langs {
+  margin-right: 2rem;
+  max-width: 300px;
+}
+
+.langs svg {
+  width: 18px;
+  height: 18px;
+}
+
+.stars ul {
+  display: flex;
+}
+
+.stars ul li {
+  margin-right: 5px;
+}
+
+.star-full svg path {
+  fill: #dd2020;
+}
+
+.star-empty svg path {
+  fill: #999;
+}
+
+.item-list {
+}
+
+.item {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.left-content {
+  width: 40%;
+}
+
+.right-content {
+  width: 60%;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.right-content::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3176e0;
+}
+
+.right-content::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  bottom: -1rem;
+  left: 0;
+  width: 1px;
+  background-color: #d3d1d1;
+}
+
+.firm {
+  font-weight: bold;
+  font-size: 1rem;
+}
