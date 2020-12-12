@@ -10,7 +10,7 @@ module.exports = {
   entry: "./src",
   output: {
     path: path.resolve(__dirname, "public"),
-    filename: "bundle.js",
+    filename: "[name].js",
   },
   module: {
     rules: [
@@ -24,9 +24,12 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
+        test: /\.(png|jpe?g|gif|pdf)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+        }
+      }
     ],
   },
   resolve: {

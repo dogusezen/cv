@@ -1,8 +1,11 @@
 import React from "react";
+import cvPDF from "src/files/Doğu-Kemal-Sezen.pdf"
 
 const Header = () => {
   return (
-    <header>Header</header>
+    <header className="header">
+      <a download href={cvPDF}>Download CV</a>
+    </header>
   );
 };
 

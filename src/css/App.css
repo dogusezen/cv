@@ -25,6 +25,10 @@ img {
   min-width: 150px;
 }
 
+.header {
+  padding: 1rem;
+}
+
 .cv {
   display: flex;
   min-height: 100vh;
