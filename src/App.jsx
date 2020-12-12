@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Header from './components/Header/Header';
+import Cv from "./components/Cv/Cv";
+import "./css/App.css";
 
 const App = () => {
   return (
-    <h1>
-      React App
-    </h1>
-  )
-}
+    <>
+      <Header />
+      <Cv />
+    </>
+  );
+};
 
-export default App
+export default App;

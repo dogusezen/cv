@@ -25,7 +25,7 @@ img {
   min-width: 150px;
 }
 
-body {
+.cv {
   display: flex;
   min-height: 100vh;
 }
