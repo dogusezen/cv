@@ -30,7 +30,11 @@ module.exports = {
         options: {
           name: '[name].[ext]',
         }
-      }
+      },
+      {
+        test: /\.svg$/,
+        use: ['@svgr/webpack'],
+      },
     ],
   },
   resolve: {

@@ -1,0 +1,29 @@
+.socials {
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(64, 98, 143, 0.541);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px 0 0 5px;
+}
+
+.social-link {
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-link:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.social-link svg {
+  fill: #fff;
+  transition: all ease 0.3s;
+}
+
+.social-link:hover svg {
+  fill: rgb(49, 99, 236);
+}

@@ -1,6 +1,7 @@
 import React from "react";
-import Header from './components/Header/Header';
+import Header from "./components/Header/Header";
 import Cv from "./components/Cv/Cv";
+import SocialNetworks from "./components/SocialNetworks/SocialNetworks";
 import "./css/App.css";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <Header />
       <Cv />
+      <SocialNetworks />
     </>
   );
 };
