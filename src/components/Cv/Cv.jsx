@@ -207,6 +207,16 @@ const Cv = () => {
           <div>
             <h3>İş Deneyimleri</h3>
             <ul className="item-list">
+            <li className="item">
+                <div className="left-content">
+                  <h4 className="position">Misafir İlişkileri Temsilcisi</h4>
+                </div>
+                <div className="right-content">
+                  <div className="firm">Lara Barut Collection</div>
+                  <div className="place">Antalya</div>
+                  <div className="dates">03/2021 - Halen</div>
+                </div>
+              </li>
               <li className="item">
                 <div className="left-content">
                   <h4 className="position">Moderatör</h4>
@@ -214,7 +224,7 @@ const Cv = () => {
                 <div className="right-content">
                   <div className="firm">Granada Luxury Resort & Spa</div>
                   <div className="place">Antalya</div>
-                  <div className="dates">07.2019 - Halen</div>
+                  <div className="dates">07/2019 - 11/2020</div>
                 </div>
               </li>
               <li className="item">
@@ -224,7 +234,7 @@ const Cv = () => {
                 <div className="right-content">
                   <div className="firm">TRUA Sport&Organization</div>
                   <div className="place">Kharkov - Ukrayna</div>
-                  <div className="dates">12.2017 - 06.2019</div>
+                  <div className="dates">12/2017 - 06/2019</div>
                 </div>
               </li>
               <li className="item">
@@ -234,7 +244,7 @@ const Cv = () => {
                 <div className="right-content">
                   <div className="firm">Wow Topkapı Palace</div>
                   <div className="place">Antalya</div>
-                  <div className="dates">05.2013 - 11.2017</div>
+                  <div className="dates">05/2013 - 11/2017</div>
                 </div>
               </li>
               <li className="item">
@@ -244,7 +254,7 @@ const Cv = () => {
                 <div className="right-content">
                   <div className="firm">Silence Beach Resort Hotel</div>
                   <div className="place">Antalya</div>
-                  <div className="dates">04.2008 - 05.2013</div>
+                  <div className="dates">04/2008 - 05/2013</div>
                 </div>
               </li>
             </ul>
@@ -259,7 +269,7 @@ const Cv = () => {
               </div>
               <div className="right-content">
                 <div className="firm">İstanbul Üniversitesi (İÜ)</div>
-                <div className="dates">02.2014</div>
+                <div className="dates">02/2014</div>
               </div>
             </li>
           </ul>
